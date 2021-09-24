@@ -1,0 +1,34 @@
+{
+	"passengerInfo": {
+		"name": "andrew",
+		"email": "andrew@gmail.com",
+		"source": "Daka",
+		"destination": "BBSH",
+		"travelDate": "14-12-2020",
+		"pickupTime": "5.0 PM",
+		"arrivalTime": "7.0 PM",
+		"fare": 8000.00
+	},
+
+	"paymentInfo": {
+		"accountNo": "acc1",
+		"cardType": "Credit"
+	}
+}
+==========================Response===========================
+{
+    "status": "Success",
+    "totalFare": 8000.0,
+    "pnrNo": "aa9b022c",
+    "passengerInfo": {
+        "pid": 3,
+        "name": "andrew",
+        "email": "andrew@gmail.com",
+        "source": "Daka",
+				"destination": "BBSH",
+        "travelDate": "14-12-2020",
+        "pickupTime": "5.0 PM",
+        "arrivalTime": "7.0 PM",
+        "fare": 8000.0
+    }
+}
